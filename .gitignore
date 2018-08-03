@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.DS_Store
+.vscode
+__pycache__
+input/.DS_Store
+input/*.h5
