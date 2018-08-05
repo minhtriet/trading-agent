@@ -25,3 +25,4 @@ end_consuming_date = datetime.datetime.strptime(end_consuming_date, '%d %m %Y')
 for _ in range((end_consuming_date - start_buying_date).days):
     action = np.random.randint(0, gm.MAX_BUY_VOLUME, 9) 
     gm.step(action)
+    
